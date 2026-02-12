@@ -90,7 +90,7 @@ input[type="checkbox"]:checked ~ nav {
         height: 64px;
     }
     .navigation-menu a:hover{
-        color: var(--text-primary-color);
+        color: var(--primary-color);
     }
 }
 
