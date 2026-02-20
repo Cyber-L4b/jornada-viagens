@@ -1,4 +1,4 @@
-.section-title h2{
+/* .section-title h2{
     font-size: 28px;
     font-weight: var(--title-weight);
     margin: 0;
@@ -12,8 +12,44 @@
     border: none;
     margin: 16px auto 32px;
 }
-@media screen and (min-widt: 768){
+@media screen and (min-width: 768){
     .section-title{
         font-size: 32px;
     }
+} */
+
+.card{
+    color: var(--text-secondary-color);
+    background-color: black;
+    width: 312px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    border-radius: 16px;
+    text-align: center;
+    
+}
+.card header{
+    display: block;
+    background-color: transparent;
+    
+    position: static;
+
+}
+
+.card header p{
+    font-size: 20px;
+    font-weight: var(--text-weight);
+}
+
+.card header h3{
+    font-size: 40px;
+    font-weight: var(--title-weight);
+    margin: 8px 0 0;
+}
+
+.card header span{
+    font-size: 40px;
+    margin-top: 24px;
+    display: inline-block;
 }
